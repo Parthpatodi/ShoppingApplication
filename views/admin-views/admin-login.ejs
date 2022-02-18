@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <%- include("./partial/bootstrap.ejs")%>
+        <link rel="stylesheet" href="/css/style.css"/>
+
+      </head>
+    <body>
+                <div class="container Loginform">
+                    <div class="row">
+                       <div class="col-12">
+                            <form action="/admin/" method="post">
+                                <div class="form-group">
+                                  <label class="Label">Email-Id</label>
+                                  <input type="email" name="email" class="form-control" id="email" placeholder="email"/>
+                                </div>
+                                <div class="form-group">
+                                  <label class="Label">Password</label>
+                                  <input type="password" name="password" class="form-control" id="password" placeholder="Password"/>
+                                </div>
+                                <div class="form-group">
+                                  <center><button type="submit" class="btn btn-success mt-4">Login</button></center>
+                                </div>   
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </body>
+</html>
